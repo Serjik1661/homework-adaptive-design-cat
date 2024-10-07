@@ -1,0 +1,44 @@
+
+.page{
+    max-width: 1200px;
+    padding: 20px;
+    background-color:bisque;
+}
+.home{
+    color:rgb(112, 111, 110);
+}
+.title{
+    font-size: 30px;
+    max-width: 320px;
+}
+.logo{
+    border-radius: 50%;
+    margin: auto 10px;
+}
+.container{
+    display: flex;
+}
+.items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.item{
+    margin: 0 10px;
+}
+.author{
+    font-size: 18px;
+    color:rgb(61, 61, 45);
+}
+
+@media screen and (max-width: 800px){
+    .page{
+        background-color: aqua;
+    }
+    .items{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
